@@ -1,21 +1,21 @@
 ## Hi, I'm a software engineer
 
-I build software that keeps working when things go wrong: payments that never charge twice, data that survives a crash, pages that work offline, and slow code made fast by finding the real cause. I work across back end, front end, data and AI, in TypeScript, Python and C++.
+I like the part of software nobody notices when it works: what happens when the network drops, when a message arrives twice, or when two people click "buy" at the same moment.
 
-**Open to work:** full-time, part-time, contract or freelance, at any level.
+I've worked across back end, front end, data and AI, mostly in TypeScript, Python and C++. I'm open to full-time, part-time, contract or freelance work, at any level.
 
-**Portfolio:** [daen8584-spec.github.io](https://daen8584-spec.github.io)
-<!-- Add when ready: · [Email](mailto:YOU@EXAMPLE.COM) · [LinkedIn](https://www.linkedin.com/in/YOUR-PROFILE) -->
+More about me on my [portfolio](https://daen8584-spec.github.io).
+<!-- Add when ready: [Email](mailto:YOU@EXAMPLE.COM) · [LinkedIn](https://www.linkedin.com/in/YOUR-PROFILE) -->
 
-### What I bring
+### A few things I've built
 
-- **Systems that don't lose money or data.** A Stripe checkout where duplicate payment events and double-clicked refunds change nothing. ([how](https://github.com/daen8584-spec/storefront-payments/blob/main/docs/decisions.md))
-- **Correct under heavy traffic.** 12 people buying the last 5 items at once: exactly 5 sell. ([code](https://github.com/daen8584-spec/storefront-payments))
-- **Finding why software is slow.** A lookup that took 42 ns in a test and over 200 ns in the running server, traced to CPU cache misses and fixed. ([write-up](https://github.com/daen8584-spec/kvstore/blob/main/docs/adr/0009-transactions.md))
-- **AI features you can rely on.** Found that OCR was dropping invoice totals and cut its error rate from 2% to 0.5%. ([write-up](https://github.com/daen8584-spec/docextract/blob/main/docs/adr/0008-ocr-for-scanned-pdfs.md))
-- **Data that's checked before anyone sees it.** A dashboard rebuilt weekly from NOAA and NASA, with a quality gate in front of every release. ([live](https://daen8584-spec.github.io/data-dashboard/))
-- **Interfaces that work for everyone.** A budget app that works offline, installs on a phone and passes an accessibility scan. ([live](https://daen8584-spec.github.io/budget-tracker/))
+- A [Stripe checkout](https://github.com/daen8584-spec/storefront-payments) where 12 people try to buy the last 5 posters at once and exactly 5 sell.
+- A [Redis-compatible server in C++](https://github.com/daen8584-spec/kvstore). Adding transactions made it 15% slower, and the cause turned out to be CPU cache misses.
+- An [invoice reader](https://github.com/daen8584-spec/docextract) using an LLM and OCR. The OCR was quietly dropping invoice totals until I measured it.
+- [Hybrid search](https://github.com/daen8584-spec/hybrid-search) for RAG in PostgreSQL. My first version was worse than plain vector search, the second was better and 17 times faster.
+- A [climate dashboard](https://daen8584-spec.github.io/data-dashboard/) that updates itself every Monday from NOAA and NASA data.
+- A [budget app](https://daen8584-spec.github.io/budget-tracker/) that works offline on your phone.
 
-**Tools:** TypeScript, Python, C++, SQL · React, Next.js, Node.js, FastAPI · PostgreSQL, Redis, DuckDB · Stripe, LLM APIs · Docker, GitHub Actions, Linux
+I mostly use TypeScript, Python, C++ and SQL, with React, Node.js, FastAPI, PostgreSQL and Docker, and I'm happy to pick up whatever a team already uses.
 
-Spanish (native) · English (advanced)
+I speak Spanish and English.
